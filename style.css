@@ -1,0 +1,118 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  color: #646d70;
+  background: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+/* #region Header */
+header {
+  padding: 0 15px;
+  background-color: rgb(81, 35, 35);
+  background-image: url(./image/Bitmap.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 803px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+}
+.header-list-item {
+  gap: 40px;
+  margin-top: 35px;
+  margin-bottom: 115px;
+}
+.header-list-item-link {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  margin-right: 40px;
+}
+
+.header-btn {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #606b74;
+  display: block;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 90px;
+  height: 34px;
+  padding: 10px 25px;
+  justify-content: end;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.header-text {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.header-title {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: #fff;
+  width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-text-two {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+}
+.header-list-two {
+}
+.header-list-item-two {
+}
+.header-list-item-link-two {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  color: #fff;
+}
+/* #endregion */
